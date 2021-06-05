@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SalesWebMvc2.Migrations
 {
-    public partial class initial : Migration
+    public partial class version6 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,13 +11,13 @@ namespace SalesWebMvc2.Migrations
                 name: "Department",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    IdDepartment = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Department", x => x.Id);
+                    table.PrimaryKey("PK_Department", x => x.IdDepartment);
                 });
 
             migrationBuilder.CreateTable(
@@ -30,16 +30,16 @@ namespace SalesWebMvc2.Migrations
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     BirthDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BaseSalary = table.Column<double>(type: "float", nullable: false),
-                    DepartmentId = table.Column<int>(type: "int", nullable: true)
+                    DepartmentIdDepartment = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Seller", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Seller_Department_DepartmentId",
-                        column: x => x.DepartmentId,
+                        name: "FK_Seller_Department_DepartmentIdDepartment",
+                        column: x => x.DepartmentIdDepartment,
                         principalTable: "Department",
-                        principalColumn: "Id",
+                        principalColumn: "IdDepartment",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -71,9 +71,9 @@ namespace SalesWebMvc2.Migrations
                 column: "SellerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Seller_DepartmentId",
+                name: "IX_Seller_DepartmentIdDepartment",
                 table: "Seller",
-                column: "DepartmentId");
+                column: "DepartmentIdDepartment");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

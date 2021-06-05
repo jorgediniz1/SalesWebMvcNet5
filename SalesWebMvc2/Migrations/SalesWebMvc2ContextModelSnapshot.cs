@@ -21,7 +21,7 @@ namespace SalesWebMvc2.Migrations
 
             modelBuilder.Entity("SalesWebMvc2.Models.Department", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdDepartment")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -29,7 +29,7 @@ namespace SalesWebMvc2.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdDepartment");
 
                     b.ToTable("Department");
                 });
@@ -73,7 +73,7 @@ namespace SalesWebMvc2.Migrations
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("DepartmentId")
+                    b.Property<int?>("DepartmentIdDepartment")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -84,7 +84,7 @@ namespace SalesWebMvc2.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DepartmentId");
+                    b.HasIndex("DepartmentIdDepartment");
 
                     b.ToTable("Seller");
                 });
@@ -102,7 +102,7 @@ namespace SalesWebMvc2.Migrations
                 {
                     b.HasOne("SalesWebMvc2.Models.Department", "Department")
                         .WithMany("Sellers")
-                        .HasForeignKey("DepartmentId");
+                        .HasForeignKey("DepartmentIdDepartment");
 
                     b.Navigation("Department");
                 });

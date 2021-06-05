@@ -30,15 +30,25 @@ namespace SalesWebMvc2
             services.AddDbContext<SalesWebMvc2Context>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("SalesWebMvc2Context"), builder =>
                     builder.MigrationsAssembly("SalesWebMvc2")));
+          
+            //Classe SeedingService registrada aqui no sistema de injeção de dependencia no startup. Isso permite que o meu serviço possa
+            //ser injetado em outros e que ele também receba outros injetados nele.
+
+            services.AddScoped<SeedingServices>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, SeedingServices seedingServices)
         {
+
+            //Perfil de desenvolvimento
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                seedingServices.Seed(); //Popula base de dados
             }
+            //Perfil de produção (app publicado)
             else
             {
                 app.UseExceptionHandler("/Home/Error");

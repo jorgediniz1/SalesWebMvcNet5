@@ -41,7 +41,6 @@ D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA 
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\SalesWebMvc2.csprojAssemblyReference.cache
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\bin\Debug\net5.0\Humanizer.dll
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -149,3 +148,4 @@ D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA 
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Departments\Details.cshtml.g.cs
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Departments\Edit.cshtml.g.cs
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Departments\Index.cshtml.g.cs
+d:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\SalesWebMvc2.csprojAssemblyReference.cache

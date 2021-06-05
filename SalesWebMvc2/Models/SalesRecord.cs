@@ -4,6 +4,11 @@ namespace SalesWebMvc2.Models
 {
     public class SalesRecord
     {
+        private int v1;
+        private DateTime dateTime;
+        private double v2;
+        private SaleStatus billed;
+
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public double Amount { get; set; }
@@ -21,7 +26,7 @@ namespace SalesWebMvc2.Models
             Date = date;
             Amount = amount;
             Status = status;
-            Seller = seller;
-        }
+            Seller = seller;          
+        }    
     }
 }
