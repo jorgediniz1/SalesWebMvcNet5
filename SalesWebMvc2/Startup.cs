@@ -1,15 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc2.Data;
+using SalesWebMvc2.Services;
 
 namespace SalesWebMvc2
 {
@@ -35,6 +31,7 @@ namespace SalesWebMvc2
             //ser injetado em outros e que ele também receba outros injetados nele.
 
             services.AddScoped<SeedingServices>();
+            services.AddScoped<SellerService>();
 
         }
 
