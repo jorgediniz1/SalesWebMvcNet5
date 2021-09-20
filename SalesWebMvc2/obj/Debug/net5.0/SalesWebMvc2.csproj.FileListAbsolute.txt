@@ -148,5 +148,6 @@ D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA 
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Departments\Details.cshtml.g.cs
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Departments\Edit.cshtml.g.cs
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Departments\Index.cshtml.g.cs
-d:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\SalesWebMvc2.csprojAssemblyReference.cache
 D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\Sellers\Index.cshtml.g.cs
+D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\SalesWebMvc2.csproj.AssemblyReference.cache
+D:\Jorge Diniz\Área de TrabalhoHD\ARQUIVOS CURSO C#\SEÇÃO 18 PROJETO SISTEMA WEB ASPNET CORE\ProjetoWEB\SalesWebMvc2\SalesWebMvc2\obj\Debug\net5.0\Razor\Views\SalesRecord\Index.cshtml.g.cs

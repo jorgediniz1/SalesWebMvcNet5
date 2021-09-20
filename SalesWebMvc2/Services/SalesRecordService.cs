@@ -7,23 +7,18 @@ using System.Threading.Tasks;
 
 namespace SalesWebMvc2.Services
 {
-    public class SellerService
+    public class SalesRecordService
     {
         private readonly SalesWebMvc2Context _context;
 
-        public SellerService(SalesWebMvc2Context context)
+        public SalesRecordService(SalesWebMvc2Context context)
         {
             _context = context;
         }
 
-
-        //Operação do EF que retorna do DB todos os vendedores. 
-        public List<Seller> FindAll()
+        public List<SalesRecord> FindAll()
         {
-           return _context.Seller.ToList();
+            return _context.SalesRecord.ToList();
         }
-
-
-
     }
 }

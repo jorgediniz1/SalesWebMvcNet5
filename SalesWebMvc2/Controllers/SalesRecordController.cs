@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SalesWebMvc2.Data;
 using SalesWebMvc2.Services;
 using System;
 using System.Collections.Generic;
@@ -7,21 +8,21 @@ using System.Threading.Tasks;
 
 namespace SalesWebMvc2.Controllers
 {
-    public class SellersController : Controller
+    public class SalesRecordController : Controller
     {
         //Injeção de Dependencia.
-        private readonly SellerService _sellerService;
+        private readonly SalesRecordService _salesRecordService;
 
         //Construtor que injeta a dependencia.
-        public SellersController(SellerService sellerService)
+        public SalesRecordController(SalesRecordService salesRecordService)
         {
-             _sellerService = sellerService;
+            _salesRecordService = salesRecordService;
         }
 
         public IActionResult Index()
         {
-            var list = _sellerService.FindAll();
-            return View(list);
+            var list = _salesRecordService.FindAll();
+            return View(list); 
         }
     }
 }

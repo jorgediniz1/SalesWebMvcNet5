@@ -78,7 +78,7 @@ namespace SalesWebMvc2.Data
             SalesRecord r30 = new SalesRecord(0, new DateTime(2018, 10, 12), 5000.0, SaleStatus.Billed, s2);
 
             //Adicionando objetos no banco de dados com EF. 
-            //AddRange() método que permite add varias obj de uma vez.
+            //AddRange() método que permite add varios obj de uma vez.
             _context.Department.AddRange(d1, d2, d3, d4);
             
             _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
